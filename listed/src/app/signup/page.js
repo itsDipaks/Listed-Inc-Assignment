@@ -13,7 +13,7 @@ const signup = () => {
             <p>Sign in to your account</p>
           </div>
 
-          <div className={styles.flex}>
+          <div className={styles.signupbtn}>
             <button  >
               <FcGoogle />
               Sign in with Google
