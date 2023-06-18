@@ -2,6 +2,11 @@ import styles from "../styles/signup.module.css"
 import { FcGoogle } from "react-icons/fc";
 import { SiApple } from "react-icons/si";
 const signup = () => {
+
+  const signuptogoogle=()=>{
+    
+  }
+
   return (
     <>
        <div className={styles.container}>
@@ -14,7 +19,7 @@ const signup = () => {
           </div>
 
           <div className={styles.signupbtn}>
-            <button  >
+            <button  onClick={signuptogoogle}>
               <FcGoogle />
               Sign in with Google
             </button>

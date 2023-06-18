@@ -9,6 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Montserrat";
   font-size: 72px;
   font-weight: 700;
   line-height: 88px;
@@ -52,7 +53,7 @@
   line-height: 19px;
 }
 
-.signupbtn {
+.flex {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -60,8 +61,9 @@
   padding: 1rem 0 1.4rem 0;
 }
 
-.signupbtn button {
+.flex button {
   background: #ffffff;
+  font-family: "Montserrat";
   font-weight: 400;
   border: none;
   width: 50%;
@@ -73,7 +75,7 @@
   border-radius: 10px;
   cursor: pointer;
 }
-.signupbtn svg {
+.flex svg {
   font-size: 1rem;
 }
 .Login form {
@@ -155,12 +157,12 @@
     width: 60%;
   }
 
-  .signupbtn button {
-    width: 60%;
+  .flex button {
+    width: 50%;
     gap: 0.7rem;
-    padding: 1.5rem 1.5rem;
+    padding: 1.5rem 1rem;
   }
-  .signupbtn svg {
+  .flex svg {
     font-size: 1.5rem;
   }
 }
@@ -176,15 +178,15 @@
 
   .Login {
     padding: 0;
-    width: 92%;
+    width: 90%;
   }
 
-  .signupbtn button {
+  .flex button {
     width: 50%;
     gap: 0.5rem;
-    padding: 2.5rem 2rem;
+    padding: 1.5rem 1rem;
   }
-  .signupbtn svg {
+  .flex svg {
     font-size: 1.5rem;
   }
 }
